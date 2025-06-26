@@ -22,11 +22,10 @@
         "cloned_song": "Cloned song: \"{{song_name}}\"",
         "converting_recorded_to_composed_warning": "Converting recorded song to composed, audio might not be accurate",
         "suggest_backup": "You haven't backed up your songs in a while, remember to download the backup sometimes!",
-        "storage_persisted": "Persistent storage permission allowed", // persisted means that the browser won't delete the data
+        "storage_persisted": "Persistent storage permission allowed",
         "storage_persisted_error": "There was an error with setting up persistent storage",
         "importing_files": "Importing files...",
         "could_not_load_song": "Could not load song",
-
         "song_added_to_folder": "Song \"{{song_name}}\" added to the {{folder_name}} folder",
         "error_importing_files": "Error importing files",
         "n_things_failed_to_import": "{{n}} things failed to import",
@@ -40,7 +39,6 @@
         "imported_theme": "Imported theme \"{{theme_name}}\"",
         "imported_folder": "Imported folder \"{{folder_name}}\"",
         "imported_song": "Imported {{song_type}} song \"{{song_name}}\"",
-
         "changing_language": "Changing language...",
         "error_changing_language": "Error changing language"
     },
@@ -52,7 +50,6 @@
     },
     "confirm": {
         "delete_song": "Are you sure you want to delete the song \"{{song_name}}\"? This action cannot be undone.",
-
         "confirm_import_opened_file": "You opened the files \"{{files_names}}\", do you want to import it?"
     },
     "common": {
@@ -83,7 +80,7 @@
         "donate": "Donate",
         "open": "Open",
         "play": "Play",
-        "record": "Record", //start recording
+        "record": "Record",
         "stop": "Stop",
         "erase": "Erase",
         "copy": "Copy",
@@ -98,7 +95,7 @@
         "instrument": "Instrument",
         "download": "Download",
         "download_midi": "Download MIDI",
-        "pitch": "Pitch", //audio pitch
+        "pitch": "Pitch",
         "bpm": "bpm",
         "connect": "Connect",
         "import": "Import",
@@ -150,7 +147,7 @@
         "expand_screen": "Please increase your window size",
         "drop_files_here": "Drop files here",
         "new_changes_to_page": "There are new changes to this page!",
-        "how_to_install": "How to add to home screen" //how to install the app using the browser
+        "how_to_install": "How to add to home screen"
     },
     "menu": {
         "close_menu": "Close menu",
@@ -186,10 +183,10 @@
         "filter_alphabetical": "Alphabetical",
         "filter_date-created": "Date created",
         "open_in_composer": "Open in composer",
-        "recorded": "Recorded", //recorded songs
-        "composed": "Composed", //composed songs
-        "vsrg": "VSRG", //vsrg songs, leave as is
-        "midi": "MIDI", //midi songs, leave as is
+        "recorded": "Recorded",
+        "composed": "Composed",
+        "vsrg": "VSRG",
+        "midi": "MIDI",
         "song_library": "Library"
     },
     "settings": {
@@ -198,8 +195,8 @@
         "more_options": "More options",
         "memory_persisted": "Storage is persisted",
         "memory_not_persisted": "Storage is not persisted",
-        "memory_persisted_description": "Your data is persisted in the browser, the browser should not automatically clear it. \n Always make sure to download a backup sometimes, especially when you will not use the app for a long time",
-        "memory_not_persisted_description": "The browser didn't allow to store data persistently, it might happen that you will loose \n data when cache is automatically cleared. To get persistent storage, add the app to the home screen. If that still doesn't work, make sure you do a backup often",
+        "memory_persisted_description": "Your data is persisted in the browser, the browser should not automatically clear it. \n                             Always make sure to download a backup sometimes, especially when you will not use the app for a long time",
+        "memory_not_persisted_description": "The browser didn't allow to store data persistently, it might happen that you will loose \n                             data when cache is automatically cleared. To get persistent storage, add the app to the home \n                              screen. If that still doesn't work, make sure you do a backup often",
         "props": {
 
             "composer_bpm": "BPM",
@@ -330,7 +327,7 @@
     "vsrg_composer": {
         "delete_track_question": "Are you sure you want to remove this track? All notes will be deleted.",
         "cannot_delete_last_track": "Cannot delete last track",
-        "snap": "Snap", //this means snapping to a point, like anchoring to it
+        "snap": "Snap",
         "background_song": "Background Song",
         "background_song_info": "You can select one of your songs to be played on the background",
         "no_background_song_selected": "No background song selected",
@@ -350,15 +347,15 @@
         "good": "Good",
         "bad": "Bad",
         "miss": "Miss",
-        "combo": "Combo" //combo counter, how do rythm games call it? is it kept as "combo"?
+        "combo": "Combo"
     },
     "transfer": {
         "connecting_please_wait": "Connecting please wait...",
         "error_connecting": "Error connecting, please visit the domain, there might be changelog.",
         "import_data_from_other_domains_title": "Import data from other domains",
-        "import_data_from_other_domains_description": "Here you can import data from other existing domains of the app, select the domain you want to import \n from and click import. You will be shown all the data from the other domain, and you can select to import it all at once or only what you need.",
+        "import_data_from_other_domains_description": "Here you can import data from other existing domains of the app, select the domain you want to import\n                from and click import.\n                You will be shown all the data from the other domain, and you can select to import it all at once or \n                 only what you need.",
         "select_a_website_to_import_data": "Select a website to import data from",
-        "data": "Data", //data to import
+        "data": "Data",
         "import_all": "Import all",
         "no_data_to_import": "No data to import"
     },
@@ -377,7 +374,7 @@
         "new_theme": "New Theme",
         "default_themes": "Default Themes",
         "preview": "Preview",
-        "view_player": "View player", //shows the player preview
+        "view_player": "View player",
         "view_composer": "View composer",
         "colors": {
             "background": "Background",
@@ -399,7 +396,7 @@
         "print_as_pdf": "Print as PDF",
         "sheet_visualizer_instructions": "Select a song from the menu on the left. Remember that you can learn a song with the interactive practice tool in the Player",
         "different_color_rows": "Different color rows",
-        "per_row": "'Per row", //elements per row
+        "per_row": "'Per row",
         "invalid_song_to_visualize": "Invalid song, it is not composed or recorded",
         "error_converting_to_visual_song_try_convert_in_recorded": "Error converting song to visual song, trying to convert to recorded song first...",
         "error_converting_to_visual_song": "Error converting song to visual song"
@@ -412,9 +409,9 @@
         "accuracy": "Accuracy",
         "score": "Score",
         "combo": "Combo",
-        "practice_mode": "Practice", //song practice
+        "practice_mode": "Practice",
         "practice_mode_description": "Practice song \"{{song_name}}\"",
-        "approach_mode": "Approach mode", //TODO find new name for this, it's the mode where circles "come towards" notes
+        "approach_mode": "Approach mode",
         "approach_mode_description": "Play in Approach mode the song \"{{song_name}}\"",
         "song_search_no_results": "No results",
         "song_search_description": "Here you can find songs to learn, they are provided by the sky-music library.",
@@ -465,19 +462,19 @@
     "error": {
         "confirm_delete_all_songs": "Are you sure you want to delete ALL SONGS?",
         "settings_reset_notice": "Settings have been reset",
-        "error_page_description": "If you unexpectedly see this page it means an error has occoured. /n Here you can download or delete your songs, if one caused an error, delete it. /n If you need help, join our discord server and send the log file below.",
+        "error_page_description": "If you unexpectedly see this page it means an error has occoured. Here you can download or delete your songs, if one caused an error, delete it. If you need help, join our discord server and send the log file below.",
         "reset_settings": "Reset settings",
         "delete_all_songs": "Delete all songs",
         "error_logs": "Error logs",
         "download_logs": "Download logs"
     },
     "donate": {
-        "donate_message": "Each App I make takes months of learning and development. Added to that \n are also the costs of hosting. With a higher budget I can afford to not \n worry so much about how much I spend on the server, giving you the best \n possible experience. \n \n I care about giving users all features without \n having to pay for it, neither having intrusive ads which can be annoying. \n For this same reason, there is no source of income except donations. \n \n \n I would be really thankful if you could consider donating in order to fund \n development and costs."
+        "donate_message": "Each App I make takes months of learning and development. Added to that are also the costs of hosting. With a higher budget I can afford to not worry so much about how much I spend on the server, giving you the best possible experience. I care about giving users all features without having to pay for it, neither having intrusive ads which can be annoying. For this same reason, there is no source of income except donations. I would be really thankful if you could consider donating in order to fund development and costs."
     },
     "cache": {
         "cache": "Cache",
         "reset_cache": "Reset cache",
-        "reset_cache_message": "This page will clear the cache of the application. This will remove all cached data and reload the page. \n It will not delete your songs or data, only the cached assets. As soon as you visit this page, it will clear the \n cache automatically. \n You can also click the button below to clear the cache manually.",
+        "reset_cache_message": "This page will clear the cache of the application. This will remove all cached data and reload the page. It will not delete your songs or data, only the cached assets. As soon as you visit this page, it will clear the cache automatically. You can also click the button below to clear the cache manually.",
         "clear_cache": "Clear Cache"
     },
     "changelog": {
@@ -490,9 +487,9 @@
         "confirm_after_songs_validation_error": "There were errors validating some songs. Do you want to continue downloading?",
         "confirm_after_folders_validation_error": "There were errors validating some folders. Do you want to continue downloading?",
         "confirm_after_themes_validation_error": "There were errors validating some themes. Do you want to continue downloading?",
-        "confirm_delete_songs_step_1": "Write 'delete' if you want to delete all songs, press cancel to ignore", //do not translate 'delete'
+        "confirm_delete_songs_step_1": "Write 'delete' if you want to delete all songs, press cancel to ignore",
         "confirm_delete_songs_step_2": "Are you REALLY sure you want to delete all songs?",
-        "confirm_delete_themes_step_1": "Write 'delete' if you want to delete all themes, press cancel to ignore", //do not translate 'delete'
+        "confirm_delete_themes_step_1": "Write 'delete' if you want to delete all themes, press cancel to ignore",
         "confirm_delete_themes_step_2": "Are you REALLY sure you want to delete all themes?",
         "deleted_all_songs_notice": "Deleted all songs",
         "deleted_all_themes_notice": "Deleted all themes",
@@ -508,7 +505,7 @@
         "transfer_data_notice": "If you want to transfer your data from another domain of the app, click here",
         "transfer": "Transfer",
         "backup_as": "Backup as",
-        "backup_advice": "Make sure you create a backup every now and then. Especially if you just finished a new song. \n The browser shouldn't delete your data, especially if you installed the app, but there is always a chance.",
+        "backup_advice": "Make sure you create a backup every now and then. Especially if you just finished a new song. The browser shouldn't delete your data, especially if you installed the app, but there is always a chance.",
         "backup_download_tooltip": "Download all the data of the app, aka themes, songs, folders",
         "backup_downloaded": "Downloaded backup",
         "backup_download_error": "Error downloading backup",
@@ -523,13 +520,13 @@
         "downloaded_themes_notice": "Downloaded themes backup",
         "download_themes_backup": "Download themes backup",
         "import_backup": "Import backup",
-        "import_backup_description": "If you have a backup, you can import it here, they will be added to your existing data. (if you already have \n the same song, \n a duplicate will be created).",
+        "import_backup_description": "If you have a backup, you can import it here, they will be added to your existing data. (if you already have the same song, a duplicate will be created).",
         "error_reading_file": "There was an error reading the file",
         "import_backup_tooltip": "Here you can import any backup you have",
         "songs": "songs",
         "themes": "themes",
         "delete_data": "Delete data",
-        "delete_data_description": "If you want, you can also delete all your data here, once deleted it can't be recovered. \n            Don't worry you will be asked to confirm before anything is deleted.",
+        "delete_data_description": "If you want, you can also delete all your data here, once deleted it can't be recovered. Don't worry you will be asked to confirm before anything is deleted.",
         "delete_songs_and_folders": "Delete songs and folders",
         "delete_songs_and_folders_tooltip": "Here you can delete all your themes",
         "delete_themes_tooltip": "Here you can delete all your themes",
@@ -551,9 +548,9 @@
         "stop_recording_audio": "Stop recording audio",
         "create_new_song": "Create new song",
         "create_from_midi_or_audio": "Create from MIDI/Audio",
-        "previous_breakpoint": "Previous Breakpoint", //breakpoint is a sort of point to "jump", a sort of bookmark
+        "previous_breakpoint": "Previous Breakpoint",
         "next_breakpoint": "Next Breakpoint",
-        "tempo": "Tempo", //this is musical tempo
+        "tempo": "Tempo",
         "error_with_this_layer": "There was an error with this layer",
         "recording_audio": "Recording Audio",
         "tools": {
@@ -561,7 +558,7 @@
             "move_notes_up_description": "Push notes up by 1 position",
             "move_notes_down": "Move notes down",
             "move_notes_down_description": "Push notes down by 1 position",
-            "only_layer": "Only layer", //this will be used as Only layer 1-.. etc
+            "only_layer": "Only layer",
             "clear_selection": "Clear selection",
             "all_layers": "All layers",
             "all_layers_description": "Select all the layers in the highlighted columns",
@@ -584,7 +581,7 @@
             "ignore_empty_tracks": "Ignore empty tracks",
             "include_accidentals": "Include accidentals",
             "global_note_offset": "Global note offset",
-            "global_note_offset_description": "The index of each note will be pushed up/down by this amount, you can use it to make \n the song fit into the app range. You can also change the offset of each layer.",
+            "global_note_offset_description": "The index of each note will be pushed up/down by this amount, you can use it to make the song fit into the app range. You can also change the offset of each layer.",
             "local_note_offset": "Local track notes offset",
             "local_note_offset_description": " Changes the index of each note by this amount.",
             "max_octave_scaling": "Max notes octave scaling",
@@ -597,7 +594,7 @@
             "converting_audio_to_midi": "Converting audio to midi (might take a while)..",
             "detecting_notes": "Detecting notes",
             "loading_converter": "Loading converter",
-            "audio_conversion_warning": "🔬 This feature is experimental, it might not work or get stuck. \n Audio and video conversion is less accurate than MIDI, if you can, it's better to use MIDI or compose manually. \nUse audio and videos that have only one instrument playing."
+            "audio_conversion_warning": "🔬 This feature is experimental, it might not work or get stuck. Audio and video conversion is less accurate than MIDI, if you can, it's better to use MIDI or compose manually. Use audio and videos that have only one instrument playing."
         },
 
         "warning_opening_midi_importer": "Opening the midi importer to import a MIDI file, please reselect the file",
@@ -636,7 +633,7 @@
             "li_6": "You can connect a MIDI keyboard to play"
         },
         "help": {
-            "question_mark_description": "Hover over the buttons to see a tooltip. \nWhen clicking this button (?), it will show you more info.",
+            "question_mark_description": "Hover over the buttons to see a tooltip. When clicking this button (?), it will show you more info.",
             "example_help": "Example help",
             "learn_how_to_use_player": "Learn how to use the Player",
             "learn_how_to_use_composer": "Learn how to use the composer",
@@ -652,7 +649,6 @@
     "shortcuts": {
         "holdable": "Holdable",
         "props": {
-            //names
             "toggle_play": "Toggle play",
             "previous_column": "Previous column",
             "next_column": "Next column",
@@ -677,35 +673,7 @@
             "previous_track": "Previous track",
             "set_tap_hand": "Set tap hand",
             "set_hold_hand": "Set hold hand",
-            "set_delete_hand": "Set delete hand",
-
-            //descriptions
-            "toggle_play_description": "Toggle play / pause",
-            "previous_column_description": "Select the previous column",
-            "next_column_description": "Select the next column",
-            "remove_column_description": "Remove the selected column",
-            "add_column_description": "Add a column after the selected column",
-            "previous_layer_description": "Select the previous layer",
-            "next_layer_description": "Select the next layer",
-            "next_breakpoint_description": "Move to the next breakpoint",
-            "previous_breakpoint_description": "Move to the previous breakpoint",
-            "toggle_record_description": "Toggle keyboard recording",
-            "stop_description": "Stop playing / recording / practicing",
-            "restart_description": "Restart the song or practice",
-            "toggle_menu_description": "Toggle the menu",
-            "close_menu_description": "Close the menu",
-            "move_up_description": "Move the selected note up",
-            "move_down_description": "Move the selected note down",
-            "move_left_description": "Move the selected note left",
-            "move_right_description": "Move the selected note right",
-            "deselect_description": "Deselect the selected note",
-            "delete_description": "Delete the selected note",
-            "next_track_description": "Select the next track",
-            "previous_track_description": "Select the previous track",
-            "set_tap_hand_description": "Set the click to create a tap note",
-            "set_hold_hand_description": "Set the click to create a hold note",
-            "set_delete_hand_description": "Set the click to delete a note",
-            "vsrg_add_hit_object": "Add hit object (syncs to the registered keybinds)"
+            "set_delete_hand": "Set delete hand"
         }
     },
     "instruments": {
@@ -730,7 +698,7 @@
         "Panflute": "Panflute",
         "Ocarina": "Ocarina",
         "MantaOcarina": "Manta Ocarina",
-        "Aurora": "Aurora", //leave as is
+        "Aurora": "Aurora",
         "Kalimba": "Kalimba",
         "ToyUkulele": "Toy Ukulele",
         "Drum": "Drum",
@@ -739,9 +707,9 @@
         "SFX_SineSynth": "Sine Synth",
         "SFX_BassSynth": "Bass Synth",
         "SFX_ChimeSynth": "Chime Synth",
-        "SFX_TR-909": "TR-909", //leave as is
+        "SFX_TR-909": "TR-909",
         "SFX_Dance": "Dance",
-        "SFX_BirdCall": "Bird Call",// call is like "sound of a bird" or "sing"
+        "SFX_BirdCall": "Bird Call",
         "SFX_CrabCall": "Crab Call",
         "SFX_FishCall": "Fish Call",
         "SFX_SpiritMantaCall": "Spirit Manta Call",
